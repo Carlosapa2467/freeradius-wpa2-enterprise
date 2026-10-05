@@ -1,0 +1,14 @@
+# /etc/freeradius/3.0/clients.conf — fragmento añadido
+# Un router concreto:
+client router_aula {
+    ipaddr  = 10.1.46.2          # IP del router Wi-Fi que consulta al servidor
+    secret  = <SECRETO_COMPARTIDO>
+    nastype = other
+}
+
+# O una subred completa de puntos de acceso:
+# client aps_red {
+#     ipaddr  = 192.168.1.0/24
+#     secret  = <SECRETO_COMPARTIDO>
+#     nastype = other
+# }

@@ -1,0 +1,3 @@
+# /etc/freeradius/3.0/users — un usuario por persona
+usuario1    Cleartext-Password := "<CONTRASENA_USUARIO1>"
+usuario2    Cleartext-Password := "<CONTRASENA_USUARIO2>"
